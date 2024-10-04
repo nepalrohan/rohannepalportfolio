@@ -5,43 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rohan Nepal</title>
     <style>
-        body {
-            background-color: white;
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body, html {
+            height: 100%;
+            background-color: black;
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 100vh;
-            margin: 0;
-            font-family: Arial, sans-serif;
         }
-        .main {
-            text-align: center;
-            color: rgb(3, 20, 26); /* Updated color to light blue */
-            padding: 20px;
-            box-sizing: border-box;
+
+        img {
             width: 100%;
-            max-width: 600px;
-        }
-        h4, h5 {
-            margin: 0;
-        }
-        @media (max-width: 600px) {
-            .main {
-                padding: 15px;
-            }
-            h4 {
-                font-size: 30px;
-            }
-            h5 {
-                font-size: 24px;
-            }
+            height: 100%;
+            object-fit: cover; /* Makes the GIF cover the full screen */
         }
     </style>
 </head>
 <body>
-    <div class="main">
-        <h4>Sorry! The site <span>rohannepal.com.np</span> is under maintenance for some weeks.</h4>
-        <h5>Regards, Rohan</h5>
-    </div> 
+    <img src="phoo.gif" alt="Full Screen GIF">
 </body>
 </html>
